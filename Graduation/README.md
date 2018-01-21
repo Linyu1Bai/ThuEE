@@ -35,3 +35,26 @@
 * 生长条件的摸索
 * 器件怎么去长好，怎么控制
 * 色散比较强的器件
+
+1.20
+-
+* DMD
+	* 灰度图像DLP芯片的显微镜以微型链链固定，可沿DLP投影系统光源向前（ON）或向后（OFF）倾斜，在投影面上形成或亮或暗的像素.输入半导体器件的图像比特流代码控制显微镜的接通或关闭，开关次数每秒可达几千次。
+	
+	* 采用三片DLP芯片的投影系统产生的颜色不少于3000万种(256<sup>3</sup> = 16.8M)
+	* 三色波长：700nm, 546.1nm, 435.8nm
+	* DLP的对比度在1500:1（全白／全黑）
+	* 液晶显示器的对比度大概为400:1（ANSI）
+	* **目标对比度：不低于400:1(ANSI)**
+	* 使用三色滤光片来实现彩色显示的目的
+* 使用GST材料实现DLP功能
+	* GST材料的反射特性和ITO厚度、波长有关
+	
+	* 可以制作三种不同厚度的GST材料，专门适应红绿蓝三色的光
+	* 根据文献中的现实方案，仅通过电压变化的话，对于特定波长的可见光对比度不高，需要其它的手段来实现
+	* 对于不同颜色设计的单色光GST投影系统，为了提高对比度，可能需要设计不同的材料厚度。
+* 相关专利
+	* [http://search.zhiguagua.com/tools/message.html?pid=FMZL@CN105849807A&appnumber=CN201480070774.X&keywords=GST相变](http://search.zhiguagua.com/tools/message.html?pid=FMZL@CN105849807A&appnumber=CN201480070774.X&keywords=GST相变)
+	
+	* [http://search.zhiguagua.com/tools/message.html?pid=FMZL@CN106711325A&appnumber=CN201510792042.8&keywords=GST相变](http://search.zhiguagua.com/tools/message.html?pid=FMZL@CN106711325A&appnumber=CN201510792042.8&keywords=GST相变)
+	* 
