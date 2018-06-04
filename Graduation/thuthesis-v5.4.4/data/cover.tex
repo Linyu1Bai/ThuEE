@@ -1,0 +1,99 @@
+\thusetup{
+  %******************************
+  % 注意：
+  %   1. 配置里面不要出现空行
+  %   2. 不需要的配置信息可以删除
+  %******************************
+  %
+  %=====
+  % 秘级
+  %=====
+  secretlevel={秘密},
+  secretyear={10},
+  %
+  %=========
+  % 中文信息
+  %=========
+  ctitle={基于GST的超表面光学器件研究},
+  cdegree={工学学士},
+  cdepartment={电子工程系},
+  cmajor={电子科学技术类},
+  cauthor={白林禹},
+  csupervisor={李洪涛$\ $副研究员},
+ %  cassosupervisor={陈文光教授}, % 副指导老师
+  % ccosupervisor={某某某教授}, % 联合指导老师
+  % 日期自动使用当前时间，若需指定按如下方式修改：
+  % cdate={超新星纪元},
+  %
+  % 博士后专有部分
+  cfirstdiscipline={计算机科学与技术},
+  cseconddiscipline={系统结构},
+  postdoctordate={2009年7月——2011年7月},
+  id={编号}, % 可以留空： id={},
+  udc={UDC}, % 可以留空
+  catalognumber={分类号}, % 可以留空
+  %
+  %=========
+  % 英文信息
+  %=========
+  etitle={An Introduction to \LaTeX{} Thesis Template of Tsinghua University v\version},
+  % 这块比较复杂，需要分情况讨论：
+  % 1. 学术型硕士
+  %    edegree：必须为Master of Arts或Master of Science（注意大小写）
+  %             “哲学、文学、历史学、法学、教育学、艺术学门类，公共管理学科
+  %              填写Master of Arts，其它填写Master of Science”
+  %    emajor：“获得一级学科授权的学科填写一级学科名称，其它填写二级学科名称”
+  % 2. 专业型硕士
+  %    edegree：“填写专业学位英文名称全称”
+  %    emajor：“工程硕士填写工程领域，其它专业学位不填写此项”
+  % 3. 学术型博士
+  %    edegree：Doctor of Philosophy（注意大小写）
+  %    emajor：“获得一级学科授权的学科填写一级学科名称，其它填写二级学科名称”
+  % 4. 专业型博士
+  %    edegree：“填写专业学位英文名称全称”
+  %    emajor：不填写此项
+  edegree={Doctor of Engineering},
+  emajor={Computer Science and Technology},
+  eauthor={Xue Ruini},
+  esupervisor={Professor Zheng Weimin},
+  eassosupervisor={Chen Wenguang},
+  % 日期自动生成，若需指定按如下方式修改：
+  % edate={December, 2005}
+  %
+  % 关键词用“英文逗号”分割
+  ckeywords={GST, 功能可调, 超表面},
+  ekeywords={GST, adjustable function, metasurface}
+}
+
+% 定义中英文摘要和关键字
+\begin{cabstract}
+超表面光学器件可以在小于波长的厚度尺寸下实现传统光学器件的功能，如聚焦、分光、起偏等，具有重要的理论意义和应用前景。但是超表面光学器件一旦被制作出来，其功能就固定了，无法根据需要变化。寻求一种功能可调的超表面光学器件设计和制作方法是当前研究的一个热点。
+
+本论文针对基于GST材料的功能可调超表面光学器件开展研究。
+
+首先，本论文对二维排布的GST纳米柱阵列进行了仿真。结果表明这种结构通过GST晶化状态的改变可以实现$\left ( 0, 2\pi \right )$的相位变化，从而可以被用于制作功能可调的超表面光学器件。
+
+其次，本论文优化了GST薄膜材料的磁控溅射制备参数。在0.5Pa的氩气氛围，80W溅射功率下溅射速率为$35\ nm \cdot{} min^{-1}$且制备得到的是表面平整的非晶化薄膜。
+
+第三，本论文对GST薄膜相变前后的折射率、透过率随波长的变化进行了测试。结果表明非晶态的折射率为$\left ( 3.47 + 1.09i \right )$，晶化之后为$\left ( 7.74 + 3.49i \right )$。制得的GST薄膜样品对于波长在$1.4\ \mu m$以上的光有高透过率，波长在$1.1\ \mu m$以下的光有高反射率。
+
+本文的研究成果为后续功能可调的超表面光学器件研究打下了坚实基础。
+\end{cabstract}
+
+% 如果习惯关键字跟在摘要文字后面，可以用直接命令来设置，如下：
+% \ckeywords{\TeX, \LaTeX, CJK, 模板, 论文}
+
+\begin{eabstract}
+ Metasurface optical devices can realize the functions of traditional optical devices such as focusing, splitting, and polarizing at the thicknesses smaller than the wavelength, which have important theoretical significance and application prospects. However, once the metasurface optics are manufactured, their functions are fixed and cannot be changed as need. The search for a function-adjustable metasurface optical device design and fabrication method is a hot topic in current research.
+This dissertation focuses on functionally adjustable super-surface optical devices based on GST materials.
+
+First, this paper simulates a two-dimensional array of GST nanopillar arrays. The results show that this structure can achieve the phase change of $\left (0, 2\pi\right)$ through the change of the crystallization state of GST, which can be used to make a function-adjustable super-surface optical device.
+
+Secondly, this paper optimized the magnetron sputtering preparation parameters of GST thin film materials. In an argon atmosphere of 0.5 Pa, the sputtering rate is $35 nm\cdot{}min^{-1}$ at a sputtering power of 80 W and an amorphized film with a flat surface is prepared.
+
+Third, this paper tests the change of refractive index and transmittance of the GST film before and after phase transformation with wavelength. The result shows that the refractive index of the amorphous state is $\left (3.47 + 1.09i \right)$ and after crystallization is $\left (7.74 + 3.49i \right)$. The resulting GST thin film sample has a high transmittance for light at wavelengths above $1.4\ \mu m$, and high reflectance for light at wavelengths below $1.1\ \mu m$.
+
+The research results of this paper lay a solid foundation for the follow-up function research of super-surface optical devices.
+\end{eabstract}
+
+% \ekeywords{\TeX, \LaTeX, CJK, template, thesis}

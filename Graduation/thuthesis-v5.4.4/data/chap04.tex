@@ -1,0 +1,66 @@
+\chapter{总结与展望}
+\label{chap:04}
+
+\section{研究总结}
+\label{conclusion}
+
+\subsection{得到的结论}
+在围绕着可控超表面展开的、对GST材料的了解中，我们可以得到以下结论：
+\begin{itemize}
+	\item 在仿真的进程中，我们验证了可以通过由多个GST柱子形成的单元来实现对超表面调节能力的控制；
+	\item GST薄膜可以采用射频溅射的方式制备。在制备过程中，如果溅射环境的气压低于0.3Pa，那么溅射速率过低；
+	\item GST薄膜在制备过程中可能会被氧化，从而使成膜质量受到影响；
+	\item GST薄膜在$SiO_{2}$表面附着力不足，欠缺的粘着力可能会影响镀膜的质量；为了提升镀膜质量，我们需要在玻璃上预先镀上金属衬底，因此只能制作反射结构；
+	\item 热退火过程会引入额外的氧元素，至于电控相变会对GST材料产生何种影响，有待考量；
+	\item GST材料在可见光-近红外波段更接近一种反射材料，在中红外波段透过率会相应提升；当作为反射材料时，在反射率-波长曲线中有一个明显的峰值；
+	\item GST材料在晶态和非晶态中的折射率、色散方程参数确实有显著差异，这个差异使得我们最初设计的超表面结构具有一定调节能力。
+\end{itemize}
+
+\subsection{与研究目标的差距}
+\label{sub:disappointments}
+尽管我们已经得到了一些结论，但是它们同我们“制作可控超表面”的目标尚存一定差距。产生差距的主要原因为对GST材料的性质掌握过程发现很多资料难以找到，以及对实验所需的工作量估计不足，主要源于对溅射抽真空的耗时和椭偏仪拟合耗时的工作量估计不足。
+
+如果今后有机会能够在这个课题上继续下去的话，可以着眼于继续研究GST相变所需条件，尤其需要在电控 \cite{nature1} 层面和在GST材料晶态和非晶态之间的形态 \cite{middle} 需要有所深入。前者是使得GST迅速相变的表征，而如果能够在后者取得突破，则每个纳米柱所能够代表的状态会丰富得多，从而使得可控超表面在控制前后更加准确。然而，根据 \cite{nature2} 的表示中，GST在晶态和非晶态之间的状态是不稳定的。
+
+\section{成果展望}
+\label{sec:forecast}
+在如今，GST材料在晶化和非晶化的状态并不明确，仅在部分只涉及仿真的文献中有所提及；因此断言可以对那个状态加以应用是武断的。但是即便不应用GST材料的中间态，我们也可以通过二维排列的纳米柱来实现可控的超表面。有关进一步的仿真，我们可以考虑对不同波长的光以及纳米柱的不同尺寸进行扫描，进而发现使得GST材料的相变能力更大的外界条件。与此同时，在得到了GST调节范围的情形下，我们可以对中间变化的场进行优化，从而在源光强分布与目标光强分布不变的情况下降低对超表面调节能力的要求。相关的优化问题是一个求解$Monge-Amp\acute{e}re$方程的问题，有待进一步的研究。
+
+\begin{thebibliography}{99}
+\bibitem{intro01} Cheng Hung Chu, Ming Lun Tseng, Jie Chen, Pin Chieh Wu, Yi-Hao Chen, Hsiang-Chu Wang, Ting-Yu Chen, Wen Ting Hsieh, Hui Jun Wu, Greg Sun, and Din Ping Tsai: Active dielectric metasurface based on phase-change
+medium (2016)
+
+\bibitem{intro02} Guo Yinghui, Pu Mingbo, Ma Xiaoliang, et al. Advances of dispersion-engineered metamaterials[J]. Opto-Electronic Engineering, 2017, 44(1): 3-22. 
+
+\bibitem{elePhaseChange} Kin-Fu Kao, Chain-Ming Lee, Ming-Jung Chen, Ming-Jinn Tsai, and Tsung-Shune Chin, $Ge_{2}Sb_{2}Te_{5}$---A Candidate for Fast and Ultralong Retention Phase-Change Memory
+
+\bibitem{GSTnk} Shane Colburn, Alan Zhan, Arka Majumdar, Sanchit Deshmukh, Eric Pop, Jason Myers, Jesse Frantz: Active metasurfaces based on phase-change memory material digital metamolecules, IEEE International Conference on Nanotechnology
+Pittsburgh, USA, July 25-28, 2017
+
+\bibitem{fourier} CURRAN P.J., DUNGAN J.L.. Estimation of signal-to-noise: a new procedure applied to AVIRIS data[M]. IEEE Transactions on Geoscience and Remote Sensing,1989:620-628.
+
+\bibitem{sputtering} 李维娟主编. 材料科学与工程实验指导书. 北京：冶金工业出版社, 2016.03.
+
+\bibitem{ortho} A00553344, 黑盒测试（五）——正交试验法，CSDN blog, 2007. url: https://blog.csdn.net/A00553344/article/details/1834670
+
+\bibitem{ohmofGST} Matthias Wuttig and noboru YaMada, Phase-change materials for rewriteable
+data storage, nature materials, Nov. 2007
+
+\bibitem{metaGST} Shane Colburn, Alan Zhan, Sanchit Deshmukh, Jason Myers, Jesse Frantz, Eric Pop, Arka Majumdar, et al. Metasurfaces Based on Nano-Patterned Phase-Change Memory Materials, IEEE 2017
+
+\bibitem{structure} Hui-Hsin Hsiao, Cheng Hung Chu, and Din Ping Tsai, Fundamentals and Applications of Metasurfaces
+
+\bibitem{GSTbase} Seung Wook Ryu,, Jin Ho, Byung Joon Choi, Sung-Yeon Hwang, Suk Kyoung Hong, Cheol Seong Hwang, and Hyeong Joon Kima, SiO$_{2}$ Incorporation Effects in Ge$_{2}$Sb$_{2}$Te$_{5}$ Films Prepared
+by Magnetron Sputtering for Phase Change Random Access Memory Devices, ECS 2006
+
+\bibitem{nature} Peiman Hosseini, C. David Wright and Harish Bhaskaran, An optoelectronic framework enabled by low-dimensional phase-change films, nature 2014
+
+\bibitem{nature1} Peiman Hosseini, C. David Wright and Harish Bhaskaran, An optoelectronic framework enabled by low-dimensional phase-change films, nature 2014
+
+\bibitem{nature2} Peiman Hosseini, C. David Wright and Harish Bhaskaran, I/V based switching of lithographically defined pixels and comparison with electrical patterning of continuous phase chage films.
+
+\bibitem{GSTbase2} Niloufar Raeis-Hosseini and Junsuk Rho, Metasurfaces Based on Phase-Change Material as a Reconfigurable Platform for Multifunctional Devices.
+
+\bibitem{thuthesis} 薛瑞尼，清华大学学位论文模板，2017-12-02， https://github.com/xueruini/thuthesis
+
+\end{thebibliography}
